@@ -79,7 +79,7 @@ function wsl_component_loginwidget_setup_basic_settings()
 		  <tr>
 			<td width="180" align="right"><strong><?php _wsl_e("Connect with caption", 'wordpress-social-login') ?> :</strong></td>
 			<td>
-			<input type="text" class="inputgnrc" style="width:535px" value="<?php _wsl_e( get_option( 'wsl_settings_connect_with_label' ), 'wordpress-social-login' ); ?>" name="wsl_settings_connect_with_label" >
+			<input type="text" class="inputgnrc" style="width:535px" value="<?php esc_html_e( get_option( 'wsl_settings_connect_with_label' ), 'wordpress-social-login' ); ?>" name="wsl_settings_connect_with_label" >
 			</td>
 		  </tr>
 		  <tr>
