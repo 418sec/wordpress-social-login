@@ -157,7 +157,7 @@ function wsl_component_loginwidget_setup_advanced_settings()
 		  <tr>
 			<td width="180" align="right"><strong><?php _wsl_e("Redirect URL", 'wordpress-social-login') ?> :</strong></td>
 			<td>
-				<input type="text" name="wsl_settings_redirect_url" class="inputgnrc" style="width:535px" value="<?php echo get_option( 'wsl_settings_redirect_url' ); ?>">
+				<input type="text" name="wsl_settings_redirect_url" class="inputgnrc" style="width:535px" value="<?php echo esc_html(get_option( 'wsl_settings_redirect_url' )); ?>">
 			</td>
 		  </tr>
 		  <tr>
